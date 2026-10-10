@@ -315,7 +315,5 @@ ORDER BY anomaly_band;
 ├── sql/
 │   ├── 01_schema_and_loading.sql
 │   └── 02_analysis_queries.sql
-├── screenshots/
 └── README.md
 ```
-
