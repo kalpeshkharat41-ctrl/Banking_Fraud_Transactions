@@ -1,0 +1,4 @@
+-- ==========================================================
+-- Database Schema: Banking Fraud Transactions Dataset
+-- ==========================================================
+CREATE TABLE Banking_Fraud_Transactions(transaction_id INTEGER PRIMARY KEY, transaction_amount DECIMAL (10,2), login_attempts INTEGER, device_risk_score DECIMAL(5,2),transfer_frequency INTEGER ,anomaly_score DECIMAL(4,3), account_age_days INTEGER, transaction_time_hour INTEGER, failed_transactions_last_30d INTEGER, avg_monthly_balance DECIMAL(12,2), daily_transaction_count INTEGER, geo_distance_km INTEGER, session_duration_minutes INTEGER, transaction_velocity_score DECIMAL(5,2), payment_channel VARCHAR(50), authentication_type VARCHAR(30), card_present_flag SMALLINT, international_transaction_flag SMALLINT, suspicious_ip_flag SMALLINT, fraud_flag BOOLEAN);
